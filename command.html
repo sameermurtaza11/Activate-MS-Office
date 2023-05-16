@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Command used in video</title>
+  <style>
+    /* CSS for the description */
+    .description {
+      font-size: 1.2rem;
+      line-height: 1.5;
+      margin: 1rem 0;
+    }
+/* CSS for the Note */
+    .note {
+      font-size: 1.2rem;
+      line-height: 1.5;
+      margin: 1rem 0;
+color: red;
+    }
+
+    /* CSS for responsive layout */
+    @media screen and (max-width: 768px) {
+      .description {
+        font-size: 1rem;
+        margin: 0.5rem 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <p class="description">cd /d %ProgramFiles%\Microsoft Office\Office16<br>for /f %x in ('dir /b ..\root\Licenses16\ProPlus2021VL_KMS*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16%x"<br>cscript ospp.vbs /setprt:1688<br>cscript ospp.vbs /unpkey:6F7TH >nul<br>cscript ospp.vbs /inpkey:FXYTK-NJJ8C-GB6DW-3DYQT-6F7TH<br>cscript ospp.vbs /sethst:s8.uk.to<br>cscript ospp.vbs /act</p>
+  </div>
+<div>
+<p class="note">Note: Make sure your device is connected to the internet, then run the following commands. If you see the error 0xC004F074, it means that your internet connection is unstable or the server is busy. Please make sure your device is online and try the command "act" again until you succeed.</p>
+</div>
+</body>
+</html>
